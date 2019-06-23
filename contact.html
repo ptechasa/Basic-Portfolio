@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
+    <header id="main_header">
+        <div class="container">
+            <span id="logo">Pananart Techasathitwong</span>
+
+            <nav id="lists">
+                <a href="#about_me">About</a>
+                <a href="Portfolio.html">Portfolio</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="action_page">
+        <form action="action_page.php">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" placeholder="Your name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="Email" placeholder="example@gmail.com">
+
+            <label for="message">Message</label>
+            <input type="text" id="message" name="Message" placeholder="">
+
+            <div class="btn_submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <footer>Copyright2019</footer>
 </body>
+
 </html>

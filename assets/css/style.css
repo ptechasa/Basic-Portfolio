@@ -11,11 +11,14 @@ body {
 
 #main_header {
     background: white;
+    padding-top: 37px;
 }
 
 #logo {
     background-color: #4aaaa5; 
     color: #777777;
+    padding: 20px;
+    padding-top: 40px;
 }
 
 #profile-image {
@@ -30,8 +33,17 @@ h1 {
     width: 960px;
     margin: 0 auto;
     /* margin: top right bottom left; */
-
 }
+
+.container_contact {
+    width: 960px;
+    margin: 0 auto;
+}
+
+ section {
+     width: 960px;
+     padding: 60px;
+ }
 
 #lists {
     text-align: right;
@@ -42,26 +54,50 @@ h1 {
     color: #777777;
     position: relative;
     padding: inherit;
-    /* width: 30%; */
 }
 
 #info {
     background: white;
-    margin: 50px auto;
+    margin: 40px auto;
     padding: 20px;
 }
 
+img {
+    float: left; 
+}
+
+.action_page {
+    padding: 80px;
+}
+
+input[type=text] {
+    width: 960px;
+    padding: 20px 20px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 12px;
+    box-sizing: content-box;
+}
+
+input[type=submit] {
+    width: 960;
+    background-color:#4aaaa5;
+    color: white;
+    padding: 20px 20px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color:#4aaaa5;
+}
+  
 #clear {
     clear: both;
 }
-
-img {
-    
-}
-
-/* div {
-    clear: left;
-} */
 
 footer {
     background-color: #666666;
